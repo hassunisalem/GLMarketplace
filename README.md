@@ -13,7 +13,7 @@ and my underestamation of the difficulty of this assigment, I'd propbably have a
 assigment after the exams, to then spend more time on it.
 
 propbably used too much time on the *DummyData.json* and some prop-errorhandling and
-may have used time one the actual functionality and styles first, to reach the deadline.
+may should have used time one the actual functionality and styles first, to reach the deadline.
 
 ## DEMO:
 
