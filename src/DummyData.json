@@ -1,37 +1,56 @@
+
+
 [{
     "key": 1,
+    "mkey":1,
     "img":
     {    "alt": "slide1",
-         "src": "https://picsum.photos/id/237/200/300"
-        }
-
+         "src": "https://cdn1.bigcommerce.com/n-yp39j5/wy60p8/products/5747/images/11005/PRADA%2525252520LOGO__99074.1384043102.1280.1280__81619.1529524416.1280.1280.jpg?c=2"
+        },
+    "cmpgtitle": "More Life",
+    "brand": "Prada",
+    "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
+    
 },
 {    "key": 2,
+    "mkey":2,
     "img":
     {    "alt": "slide2",
          "src": "https://picsum.photos/200/300?grayscale"
-        }
-
+        },
+        "cmpgtitle": "More Life",
+    "brand": "Prada",
+     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
 },
 {    "key": 3,
+    "mkey":3,
     "img":
     {    "alt": "slide2",
          "src": "https://picsum.photos/200/300?grayscale"
-        }
-
+        },
+        "cmpgtitle": "More Life",
+    "brand": "Prada",
+     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
 },
 {    "key": 4,
+    "mkey":4,
     "img":
     {    "alt": "slide2",
          "src": "https://picsum.photos/200/300?grayscale"
-        }
+        },
+        "cmpgtitle": "More Life",
+    "brand": "Prada",
+     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
 
 },
 {    "key": 5,
+    "mkey":5,
     "img":
     {    "alt": "slide2",
          "src": "https://picsum.photos/200/300?grayscale"
-        }
-
+        },
+        "cmpgtitle": "More Life",
+    "brand": "Prada",
+     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
 }
 ]

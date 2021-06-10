@@ -1,35 +1,59 @@
 import '../styles.css';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import SwiperCore, {Navigation, Pagination} from 'swiper';
+import SwiperCore, { Autoplay,Navigation, Pagination} from 'swiper';
 import 'swiper/swiper-bundle.css';
 
-import PropTypes from 'prop-types'
-import pandora from '../Pandora.jpg';
+import Modal from './modal';
 
+import PropTypes from 'prop-types'
+
+import React, { useState } from 'react';
 import DummyData from '../DummyData.json';
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Autoplay,Navigation, Pagination]);
 
-const ComSwiper = ({id, slides, tag, wrapperTag, navigation, slidesPerView, spaceBetween, onInit, onSlideChange, onReachEnd }) => {
+const ComSwiper = ({id, slides, freeMode, tag, wrapperTag, navigation, slidesPerView, spaceBetween, onInit, onSlideChange, onReachEnd }) => {
    
+const [show, setShow] = useState(false);
+
+
+
+
 const getData = () => {
   const data = DummyData
-
   return (
-      data.map((slide) => (
-          <SwiperSlide key= {slide.key}>
+      data.map((campaign) => (
+          <div className="swiper-slide">
+
+          <SwiperSlide key= {campaign.key} onClick ={() => setShow(!show)}>
+             <div class="container">
+
+            <Modal key ={campaign.mkey}  show= {show} > </Modal>
          <img
-        src = {slide.img.src}
-        alt = {slide.img.alt}
+        src = {campaign.img.src}
+        alt = {campaign.img.alt}
         />
+        <div class="capption-title">
+            <h1> {campaign.cmpgtitle} </h1>
+            </div>
+
+             <div class="capption-subtitle">
+            {campaign.brand}
+        </div>
+        </div>
+
     </SwiperSlide>
+
+   
+    
+        </div>
       ))
   );
 };
    
     return (
         
-        <Swiper id={id}
+        <Swiper className="mySwiper" id={id}
         tag={tag}
         wrapperTag={wrapperTag}
         navigation = {navigation}
@@ -37,7 +61,12 @@ const getData = () => {
         spaceBetween ={spaceBetween}
         onInit={onInit}
         onSlideChange={onSlideChange}
-        onReachEnd={onReachEnd} >
+        onReachEnd={onReachEnd}
+        freeMode={freeMode} 
+        autoplay={{
+  "delay": 2500,
+  "disableOnInteraction": false
+}}>
 
 
            {getData()}
