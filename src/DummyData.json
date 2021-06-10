@@ -4,53 +4,83 @@
     "key": 1,
     "mkey":1,
     "img":
-    {    "alt": "slide1",
+    {    "alt": "Prada",
          "src": "https://cdn1.bigcommerce.com/n-yp39j5/wy60p8/products/5747/images/11005/PRADA%2525252520LOGO__99074.1384043102.1280.1280__81619.1529524416.1280.1280.jpg?c=2"
         },
     "cmpgtitle": "More Life",
     "brand": "Prada",
-    "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
-    
+    "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!",
+    "category": "Fashon",
+    "totalnumf" :10000000,
+    "TAgender": "all",
+    "TAage":"12-99",
+    "campaignhashtag": "#pradaForMadra&Padra",
+    "brandURL": "https://www.prada.com/dk/en.html"
 },
 {    "key": 2,
     "mkey":2,
     "img":
-    {    "alt": "slide2",
-         "src": "https://picsum.photos/200/300?grayscale"
+    {    "alt": "Pandora",
+         "src": "https://theartofpandora.com/wp-content/uploads/2017/12/396580_-PANDORA-I-Love-You-Necklace-gbp55--200x300.jpg"
         },
-        "cmpgtitle": "More Life",
-    "brand": "Prada",
-     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
-},
+        "cmpgtitle": "Shine this summer",
+    "brand": "Pandora",
+     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!",
+        "category": "Fashon",
+        "totalnumf" :3000000,
+        "TAgender": "all",
+    "TAage":"16-99",
+    "campaignhashtag": "#openthebox",
+    "brandURL": "https://dk.pandora.net/da/"
+    },
 {    "key": 3,
     "mkey":3,
     "img":
-    {    "alt": "slide2",
-         "src": "https://picsum.photos/200/300?grayscale"
+    {    "alt": "GameStop",
+         "src": "https://assets.realclear.com/images/53/534308_1_.jpg"
         },
-        "cmpgtitle": "More Life",
-    "brand": "Prada",
-     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
-},
+        "cmpgtitle": "Power To The Players",
+    "brand": "GameStop",
+     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!",
+        "category": "Gaming",
+        "totalnumf" :200,
+        "TAgender": "all",
+    "TAage":"6-99",
+    "campaignhashtag": "#StopBuyingGamesOnline",
+    "brandURL": "https://www.gamestop.com/"
+
+    },
 {    "key": 4,
     "mkey":4,
     "img":
-    {    "alt": "slide2",
-         "src": "https://picsum.photos/200/300?grayscale"
+    {    "alt": "Coca-Cola",
+         "src": "https://i.pinimg.com/474x/25/e3/84/25e3842a124fc332e13519c255993fd3.jpg"
         },
-        "cmpgtitle": "More Life",
-    "brand": "Prada",
-     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
+        "cmpgtitle": "New Zero Taste!",
+    "brand": "Coca-Cola",
+     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!",
+        "category": "Food",
+        "totalnumf" :5000000000,
+        "TAgender": "all",
+    "TAage":"8-99",
+    "campaignhashtag": "#WeKnowBetterThanYourDentist",
+    "brandURL": "https://www.coca-cola.dk/"
 
-},
+    },
 {    "key": 5,
     "mkey":5,
     "img":
-    {    "alt": "slide2",
-         "src": "https://picsum.photos/200/300?grayscale"
+    {    "alt": "Google",
+         "src": "https://images.hdqwalls.com/walls/thumb/google-logo-minimalism-4k-gr.jpg"
         },
-        "cmpgtitle": "More Life",
-    "brand": "Prada",
-     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!"
-}
+        "cmpgtitle": "Ask Us",
+    "brand": "Google",
+     "description": "Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde/commodi aspernatur enim, consectetur. Cumque deleniti temporibus/ipsam atque a dolores quisquam quisquam adipisci possimus/laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod/accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia/reiciendis porro quo magni incidunt dolore amet atque facilis ipsum/deleniti rem!",
+        "category": "Tech",
+        "totalnumf" :30000000000,
+        "TAgender": "all",
+    "TAage":"8-99",
+    "campaignhashtag": "#WhatPrivacy?",
+    "brandURL": "https://www.prada.com/dk/en.html"
+    }
 ]

@@ -15,7 +15,7 @@ SwiperCore.use([Autoplay,Navigation, Pagination]);
 const ComSwiper = ({id, slides, freeMode, tag, wrapperTag, navigation, slidesPerView, spaceBetween, onInit, onSlideChange, onReachEnd }) => {
    
 const [show, setShow] = useState(false);
-
+// Modals needs their own state, to fix the "shared modal". My problem was figuring out how to handle each clickevent to point to each modal
 
 
 
@@ -28,17 +28,28 @@ const getData = () => {
           <SwiperSlide key= {campaign.key} onClick ={() => setShow(!show)}>
              <div class="container">
 
-            <Modal key ={campaign.mkey}  show= {show} > </Modal>
-         <img
+            <Modal key ={campaign.mkey}  show= {show} >
+                Category: {campaign.category} <br/>
+                Followers: {campaign.totalnumf}  <br/>
+                Target Audiance Gender: {campaign.TAgender}  <br/>
+                Target Audiance Age: {campaign.TAage}  <br/>
+                Campaign Hashtag: {campaign.campaignhashtag}  <br/>
+                Site: <a href={campaign.brandURL}> {campaign.brand} </a>
+
+                <br/>
+                
+                 </Modal>
+         <img className="brand-img"
         src = {campaign.img.src}
         alt = {campaign.img.alt}
         />
-        <div class="capption-title">
-            <h1> {campaign.cmpgtitle} </h1>
+        <div className="capption-title">
+            <h1> {campaign.brand} </h1>
             </div>
 
-             <div class="capption-subtitle">
-            {campaign.brand}
+             <div className="capption-subtitle">
+                 {campaign.cmpgtitle}
+            
         </div>
         </div>
 
